@@ -1,0 +1,7 @@
+{
+  "name": "OTA Pulse",
+  "description": "OTA update downloader and tool for OnePlus, Realme, and OPPO devices.",
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
