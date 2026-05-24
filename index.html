@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTA Pulse - Official OTA Updates for OnePlus, Realme & OPPO</title>
+    <style>
+        :root {
+            --primary: #2196F3;
+            --secondary: #00BCD4;
+            --dark: #121212;
+            --surface: #1E1E1E;
+            --text: #FFFFFF;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--dark);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        header {
+            padding: 4rem 2rem;
+            text-align: center;
+            background: linear-gradient(135deg, var(--dark), var(--surface));
+        }
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(to right, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .subtitle {
+            font-size: 1.25rem;
+            color: #AAA;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+        .feature-box {
+            background-color: var(--surface);
+            padding: 2rem;
+            border-radius: 1rem;
+            border: 1px solid #333;
+            transition: transform 0.3s ease;
+        }
+        .feature-box:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+        }
+        .feature-box h3 {
+            color: var(--primary);
+            margin-top: 0;
+        }
+        .cta {
+            text-align: center;
+            margin-top: 4rem;
+        }
+        .btn {
+            background-color: var(--primary);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 2rem;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background-color: #1976D2;
+        }
+        footer {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>OTA Pulse</h1>
+        <p class="subtitle">The definitive OTA update utility for OnePlus, Realme, and OPPO devices. Find, check, and download official firmware with ease.</p>
+        <a href="#" class="btn">Download APK</a>
+    </header>
+
+    <div class="container">
+        <div class="features">
+            <div class="feature-box">
+                <h3>Built-in Catalog</h3>
+                <p>Browse a comprehensive database of devices. Save your daily drivers to favorites for instant access to the latest updates.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Update Tracking</h3>
+                <p>Check for available OTA packages, view detailed changelogs, and get notified when new versions arrive.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Advanced Tools</h3>
+                <p>Query OTAs manually, resolve direct download links, and even extract partitions from payload.bin files on the go.</p>
+            </div>
+            <div class="feature-box">
+                <h3>Friendly Design</h3>
+                <p>A polished Material 3 interface that feels like a native part of your phone. No complicated developer menus.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2026 OTA Pulse Project. For educational and utility purposes only.
+    </footer>
+</body>
+</html>
