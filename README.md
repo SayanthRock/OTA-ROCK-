@@ -2,7 +2,7 @@
 
 # OTA Pulse
 
-OTA Pulse is an Android app for discovering, downloading, and inspecting OTA packages for supported `OnePlus`, `Realme`, and `OPPO` devices. This repository also now includes a static landing page at [index.html](https://remurusama.github.io/OTA-Pulse/).
+OTA Pulse is an Android app for discovering, downloading, and inspecting OTA packages for supported `OnePlus`, `Realme`, and `OPPO` devices. This repository also now includes a static landing page at [index.html](https://https://github.com/SayanthRock/OTA-ROCK-/).
 
 > Request and download OTA packages from BBK server(s).
 
